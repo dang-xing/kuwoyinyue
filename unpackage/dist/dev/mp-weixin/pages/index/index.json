@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "酷我音乐盒",
+  "usingComponents": {
+    "music-list": "/components/music-list"
+  }
+}

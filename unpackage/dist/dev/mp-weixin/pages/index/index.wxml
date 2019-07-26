@@ -1,0 +1,1 @@
+<view class="hot-song"><music-list vue-id="1" songData="{{songData}}" title="{{title}}" bind:__l="__l"></music-list><music-list vue-id="2" songData="{{newSongData}}" title="{{title1}}" bind:__l="__l"></music-list></view>
