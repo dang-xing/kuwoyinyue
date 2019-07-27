@@ -3,6 +3,64 @@
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	padding: 15rpx 20rpx;
+}
+.hotsong-title{
+	font-size:32rpx;
+	font-weight: bold;
+}
+.hot-more{
+	font-size: 28rpx;
+	color: #666;
+	float: right;
+	margin-top: 10rpx;
+}
+.music-list{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	margin-top: 20rpx;
+	display: -webkit-flex;
+    -webkit-box-pack: justify-content;
+    -webkit-justify-content: justify-content;
+        -ms-flex-pack: justify-content;
+            justify-content: justify-content;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+.music-item{
+	width: 30%;
+	margin: 0 11rpx 30rpx 11rpx;
+}
+.music-item image{
+	width: 100%;
+	margin-bottom: 0 !important;
+	will-change: transform;
+	height: 180rpx !important;
+}
+.music-item text{
+	width: 100%;
+	height: 30rpx;
+	whitespace:nowrap;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	overflow: hidden;
+	line-height: 30rpx;
+}
+.music-title{
+	font-size: 28rpx;
+	color: #000;
+	display: inline-block;
+}
+.music-singer{
+	font-size: 22rpx;
+	color: #666;
+	display: block;
 }	
 
 

@@ -1,12 +1,12 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/play/play/play"
+    "pages/play/play",
+    "pages/index/index"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
+    "navigationBarTitleText": "酷我音乐",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
@@ -23,7 +23,7 @@
         "text": "乐库"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/play/play",
         "iconPath": "static/tab-cate.png",
         "selectedIconPath": "static/tab-cate-current.png",
         "text": "播放"
